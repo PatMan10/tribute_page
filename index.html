@@ -3,28 +3,37 @@
    <head>
     <meta charset="UTF-8"/>
     <title>mySite</title>
-    <link href="/home/patman/dojo/mySite/css/styles.css"  rel="stylesheet" type="text/css" />
-    <script src="/home/patman/dojo/mySite/js/script.js"></script>
+    <link href="./css/styles.css"  rel="stylesheet" type="text/css" />
+    <script src="./js/script.js"></script>
   </head>
 
-  <body id="main">
-    <header>
-      <h1 id="title">Didier Drogba</h1>
-      <p>The football player who won the champions legue.</p>
-    </header>
+  <body>
+    <div id="main">
+      <header>
+        <h1 id="title">Shawn "Jay-Z" Carter</h1>
+        <p>The man who made it against the odds.</p>
+      </header>
 
-    <main>
-      main
-      <button onclick="boom();">
-        Click
-      </button>
-      <audio controls>
-        <source src="/home/patman/Audio/music/audio.mp3" /> 
-      </audio>
-    </main>
+      <main>
+        <div id="img-div">
+          <img id="image" src="https://bit.ly/2RpNIBp" alt="img in img-div" />
+          <p id="img-caption">Jay-Z chillin on a speaker.</p>
+        </div>
 
-    <footer>
-      footer
-    </footer>
+        <div id="tribute-info">
+          <h2>Here is a time line of persons life</h2>
+          <ul>
+            <li><strong>1969</strong> - Born in Brooklyn, New York.</li>
+            <li><strong>2001</strong> - text</li>
+            <li><strong>2002</strong> - text</li>
+          </ul>
+        </div>
+      </main>
+
+      <footer>
+        Read more about person on their <a id="tribute-link"
+          href="https://en.wikipedia.org/wiki/Jay-Z" target="_blank">wikipedia entry</a>.
+      </footer>
+    </div>
   </body>
-</html
+</html>

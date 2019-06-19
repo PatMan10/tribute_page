@@ -4,3 +4,36 @@ html {
   background-color: cyan;
 }
 
+#main {
+  width: 90%;
+  background-color: red;
+  margin: auto;
+}
+
+header {
+  background-color: pink;
+}
+
+header > h1, p {
+  text-align: center;
+}
+
+#img-div {
+  width: 80%;
+  background-color: yellow;
+  margin: auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#tribute-info {
+  width: 40%;
+  background-color: purple;
+  text-align: center;
+  margin: auto;
+}
