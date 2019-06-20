@@ -1,27 +1,38 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: cyan;
+  background-color: black;
+}
+
+h1, h2, p {
+  font-family: zekton;
 }
 
 #main {
   width: 90%;
-  background-color: red;
+  background-color: gray;
   margin: auto;
 }
 
 header {
-  background-color: pink;
 }
 
 header > h1, p {
   text-align: center;
 }
 
+header > p {
+  font-size: 1.4em;
+}
+
 #img-div {
   width: 80%;
-  background-color: yellow;
+  background-color: white;
   margin: auto;
+}
+
+#img-div > p {
+  font-size: 1.2em;
 }
 
 #image {
@@ -33,7 +44,35 @@ header > h1, p {
 
 #tribute-info {
   width: 40%;
-  background-color: purple;
-  text-align: center;
   margin: auto;
+}
+
+#tribute-info > h2 {
+  text-align: center;
+}
+
+footer {
+}
+
+footer > p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 650px) {
+  html {
+    background-color: yellow;
+  }
+
+  header > p {
+    font-size: 1.4em;
+  }
+
+  #img-div > p {
+    font-size: 1em;
+  }
+
+  footer > p {
+    font-size: 1em;
+  }
 }
